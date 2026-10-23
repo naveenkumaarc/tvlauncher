@@ -3,6 +3,8 @@ name: Build R10 Home APK
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
